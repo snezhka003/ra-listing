@@ -13,7 +13,7 @@ export default function Listing(props) {
 
 Listing.propTypes = {
     items: PropTypes.arrayOf(
-            PropTypes.shape({
+        PropTypes.shape({
             listing_id: PropTypes.number,
             url: PropTypes.string,
             MainImage: PropTypes.object,
