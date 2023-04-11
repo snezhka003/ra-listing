@@ -13,14 +13,14 @@ export default function Listing(props) {
 
 Listing.propTypes = {
     items: PropTypes.arrayOf(
-        PropTypes.shape({
-        listing_id: PropTypes.number,
-        url: PropTypes.string,
-        MainImage: PropTypes.object,
-        title: PropTypes.string,
-        currency_code: PropTypes.string,
-        price: PropTypes.string,
-        quantity: PropTypes.number,
+            PropTypes.shape({
+            listing_id: PropTypes.number,
+            url: PropTypes.string,
+            MainImage: PropTypes.object,
+            title: PropTypes.string,
+            currency_code: PropTypes.string,
+            price: PropTypes.string,
+            quantity: PropTypes.number,
         }),
     ),
 };
